@@ -1,0 +1,116 @@
+@media only screen and (max-width:1000px) {
+    .nav-list
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .rightNav
+    {
+       flex-direction: column;
+       justify-content: space-between;
+    }
+    .navbar
+    {
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 400px;
+    
+    }
+    #search
+    {
+        margin-bottom: 15px;
+    }
+    .burger
+    {
+           display: block;
+           position: absolute;
+           cursor: pointer;
+           top:15px;
+           right: 5%;
+    }
+    .line
+    {
+        width: 33px;
+        background-color: white;
+        height: 4px;
+        margin: 5px 3px;
+    }
+    .h-nav-resp
+    {
+        height: 65px;
+ 
+    }
+ .v-class-resp
+ {
+    opacity: 0;
+ }
+
+
+
+ .firstSection > .box-main
+ {
+    flex-direction: column-reverse;
+    width: 100%;
+ }
+ .box-main > .firstHalf
+ {
+    width: auto;
+ }
+ .box-main > .secondHalf
+ {
+    width: auto;
+ }
+ .secondHalf img 
+ {
+    width: 20vw;
+ }
+ .section 
+ {
+    flex-direction: column-reverse;
+ }
+ .text-big
+ {
+    text-align: center;
+ }
+ .text-small
+ {
+    text-align: center;
+ }
+ .buttons
+{
+    text-align: center;
+}
+.para
+{
+    padding: 0;
+}
+    /* .burger
+    {
+ 
+     border: 4px solid grey;
+     width: 20px;
+        position: absolute;
+        top:20px;
+        right: 20px;
+    }
+    .burger::before
+    {
+        content: "";
+        border: 4px solid rgb(180, 44, 44);
+        width: 20px;
+        position: absolute;
+        top:-15px;
+        right: -4px;
+
+    }
+    .burger::after
+    {
+        content: "";
+        border: 4px solid rgb(180, 44, 44);
+        width: 20px;
+        position: absolute;
+        top:9px;
+        right: -4px;
+
+    } */
+}
